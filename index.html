@@ -1,64 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ivan Sanchez">
     <title>About Me</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #778b98;
             line-height: 1.6;
         }
         .container {
-            width: 80%;
+            width:80%;
             margin: auto;
             overflow: hidden;
         }
-        .main-info {
-            background: #333;
+        .main-info{
+            background: #181b1c;
             color: #fff;
             padding: 20px;
+            text-align: center;
         }
-        .main-info h1 {
+        .main-info h1{
             margin: 0;
         }
-        .hobbies, .lewis, .course, .job {
-            background: #e7e7e7;
+        .main-info img{
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .hobbies, .intro, .course, .fun-fact {
+            background: #888;
             padding: 15px;
             margin-bottom: 10px;
+        }
+        .fun-fact ul.square-bullet-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .fun-fact ul.square-bullet-list li {
+            margin-bottom: 8px;
+        }
+        .hobbies ul.square-bullet-list{
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .hobbies ul.square-bullet-list li{
+            margin-bottom: 8px;
+        }
+        .course ul.square-bullet-list{
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .course ul.square-bullet-list li{
+            margin-bottom: 8px;
+        }
+        .contact-info{
+            position: absolute;
+            top: 20px;
+            right: 200px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .contact-info a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .contact-info p{
+            margin:0;
+        }
+        .discord-info{
+            position: absolute;
+            top: 40px;
+            right: 300px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .discord-info p{
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="main-info">
-            <h1>[Your First and Last Name]</h1>
-            <h1>Preferred Name: [Your Preferred Name]</h1>
+    <div class = "container">
+        <header class = "main-info">
+            <div class="contact-info">
+                <p>Email: <a href="mailto:ivansanchez@lewisu.edu">ivansanchez@lewisu.edu</a></p>
+            </div>
+            <div class="discord-info">
+                <p>Discord: eyevan_s</p> 
+            </div>
+            <img src="C:\Users\isanc\OneDrive\Desktop\getting-to-know-each-other-is\me.png" alt="Ivan Sanchez" width="200" height="200">
+            <h1>Ivan Sanchez</h1>
         </header>
-
-        <section class="lewis">
-			<h2>Year at Lewis: [Your Years at Lewis]</h2>
-			<h2>Lewis major/minor/concentrations: [Your major/minor/concentrations]</h2>
-			<h2>Reasons for pursuing this degree: [Your reasons for pursuing the degree]</h2>
+        <section class="intro">
+			<h2>Introduction</h2>
+			<p> Hello everyone! I am a 24 year old student at Lewis University pursuing a bachelors degree in computer science. 
+                My father is an electrician and he works at one of the largest data centers in the Midwest. 
+                He was a big influence in why I wanted to pursue a career in computer science. I have two 
+                younger sisters and I&rsquo;m very happy to be the cool big bro. I&rsquo;m also very proud of my mom for trying
+                to better her English to get a job again. I often remind my family that it&rsquo;s great
+                to continue learning. Whether they&rsquo;re learning a new language, a new hobby, whatever it is, never stop learning. 
+            </p>
         </section>
 
 		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>[Your reasons for taking this course]</p>
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul class="square-bullet-list">
+                <li>Dive deeper into Microsoft Azure because this is what we use at my internship</li>
+                <li>Continue learning more about HTML and CSS, first semester learning this</li>
+                <li>Time management, I want to become better at setting myself up for success</li>
+            </ul>
         </section>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>[Your job responsibilities]</p>
-        </section>		
-
         <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>[Your hobbies or special interests]</p>
+            <h2>My Favorite Hobby / Activity</h2>
+            <ul class="square-bullet-list">
+                <li>I enjoy photography even though I am not the best. I am hoping to dedicate more time to this hobby this year.</li>
+                <li>Another hobby I enjoy doing is editing the pictures I take.</li>
+                <li><a href="https://expertphotography.com/a-beginners-guide-to-photography/">If you&rsquo;d like to know a bit more about photography, 
+                    this is a beginners guide I recommend you to read.</a></li>
+            </ul>
         </section>
 
         <section class="fun-fact">
             <h2>Fun Fact</h2>
-            <p>[A fun fact about yourself]</p>
+            <ul class="square-bullet-list">
+                <li> I used to work for Nike in downtown Chicago. After working with the company for 5 years I received my discount for life!</li>
+            </ul>
         </section>
     </div>
 </body>
