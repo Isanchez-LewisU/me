@@ -73,3 +73,16 @@ body{
 .discord-info p{
     margin: 0;
 }
+
+@media only screen and (max-width: 900px){
+    .contact-info ,
+    .discord-info {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .contact-info a,
+    .discord-info p {
+        font-size: 12px;
+    }
+}
