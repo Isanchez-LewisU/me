@@ -1,0 +1,75 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #778b98;
+    line-height: 1.6;
+}
+.container {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+.main-info{
+    background: #181b1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.main-info h1{
+    margin: 0;
+}
+.main-info img{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.hobbies, .intro, .course, .fun-fact {
+    background: #888;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.fun-fact ul.square-bullet-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.fun-fact ul.square-bullet-list li {
+    margin-bottom: 8px;
+}
+.hobbies ul.square-bullet-list{
+    list-style-type: square;
+    padding-left: 20px;
+}
+.hobbies ul.square-bullet-list li{
+    margin-bottom: 8px;
+}
+.course ul.square-bullet-list{
+    list-style-type: square;
+    padding-left: 20px;
+}
+.course ul.square-bullet-list li{
+    margin-bottom: 8px;
+}
+.contact-info{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contact-info a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact-info p{
+    margin:0;
+}
+.discord-info{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.discord-info p{
+    margin: 0;
+}
