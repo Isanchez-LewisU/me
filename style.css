@@ -5,7 +5,7 @@ body{
 }
 .container {
     width:80%;
-    margin: auto;
+    margin: 0 auto;
     overflow: hidden;
 }
 .main-info{
@@ -13,6 +13,9 @@ body{
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main-info h1{
     margin: 0;
